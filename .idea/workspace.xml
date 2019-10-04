@@ -177,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.WardRobeTest">
+  <component name="RunManager" selected="Gradle.wardrobe [clean]">
     <configuration name="WardRobeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -218,8 +218,28 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="wardrobe [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.wardrobe [clean]" />
         <item itemvalue="Gradle.WardRobeTest" />
         <item itemvalue="Gradle.WardRobeTest.should_return_all_valid_drawers" />
       </list>

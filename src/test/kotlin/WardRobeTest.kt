@@ -5,10 +5,8 @@ import org.mockito.Mockito
 
 class WardRobeTest {
 
-
     @Test
     fun should_return_all_valid_drawers() {
-
         val combinationMock = Mockito.mock(Combination::class.java)
         val emailSender = Mockito.mock(EmailSender::class.java)
 
@@ -18,5 +16,4 @@ class WardRobeTest {
         wardRobe.execute()
         assertThat(potato.getPotatoes()).isEqualTo(3)
     }
-
 }
