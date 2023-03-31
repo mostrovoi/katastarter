@@ -1,18 +1,14 @@
-import assertk.assertThat
-import assertk.assertions.isEqualTo
 import com.bpodgursky.jbool_expressions.Expression
 import com.bpodgursky.jbool_expressions.parsers.ExprParser
 import com.bpodgursky.jbool_expressions.rules.RuleSet
 import org.junit.Test
 import org.mariuszgromada.math.mxparser.Argument
 import org.mariuszgromada.math.mxparser.License
-import org.mockito.Mockito
 import java.util.*
 import kotlin.system.measureTimeMillis
 
 
-class WardRobeTest {
-
+class BoolParserTest {
 
     @Test
     fun shouldReturnTrueForJbool() {
